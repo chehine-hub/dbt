@@ -8,10 +8,7 @@ sources:
     tables:
       - name: liste_agents
         description: 'Une liste des agents infiltres'
-        tests:
-                - unique
-                - not_null
-    columns:
+        columns:
           - name: agent_code
             tests:
                 - unique
