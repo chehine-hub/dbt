@@ -6,6 +6,6 @@ sources:
     database: source_db
     schema: RAW
     tables:
-      - name: sample_table
+      - name: liste_agents
         description: 'Une liste des agents infiltres'
         

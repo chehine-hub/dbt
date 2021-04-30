@@ -1,5 +1,5 @@
 with source_liste_agents as (
-    select * from {{ source('source_db', 'sample_table') }}
+    select * from {{ source('source_db', 'liste_agents') }}
 ),
 
 final as (
