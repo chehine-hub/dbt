@@ -11,3 +11,28 @@ sources:
         tests:
                 - unique
                 - not_null
+    columns:
+          - name: agent_code
+            tests:
+                - unique
+                - not_null
+          - name: agent_name
+            tests:
+                - unique
+                - not_null
+          - name: working_area
+            tests:
+                - unique
+                - not_null
+          - name: comission
+            tests:
+                - unique
+                - not_null
+          - name: phone_no
+            tests:
+                - unique
+                - not_null
+          - name: country
+            tests:
+                - unique
+                - not_null
