@@ -4,7 +4,7 @@ sources:
   - name: source_db
     description: 'Une BD source'
     database: source_db
-    schema: PUBLIC
+    schema: RAW
     tables:
       - name: sample_table
         description: 'Une liste des agents infiltres'
