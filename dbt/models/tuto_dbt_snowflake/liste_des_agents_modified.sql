@@ -5,7 +5,7 @@ with source_liste_agents as (
 ),
 
 final as (
-    select * from source_liste_agents
+    select * from source_liste_agents where working_area == 'London'
 )
 
 select * from final
