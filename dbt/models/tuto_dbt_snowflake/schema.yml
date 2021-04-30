@@ -13,22 +13,27 @@ sources:
             tests:
                 - unique
                 - not_null
+
           - name: agent_name
             tests:
                 - unique
                 - not_null
+
           - name: working_area
             tests:
                 - unique
                 - not_null
-          - name: comission
+
+          - name: commission
             tests:
                 - unique
                 - not_null
+
           - name: phone_no
             tests:
                 - unique
                 - not_null
+
           - name: country
             tests:
                 - unique
