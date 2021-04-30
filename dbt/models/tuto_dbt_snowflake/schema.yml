@@ -25,7 +25,6 @@ sources:
 
           - name: commission
             tests:
-                - unique
                 - not_null
 
           - name: phone_no
