@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: sample_db
+    description: 'Une BD exemple'
+    database: sample_db
+    schema: PUBLIC
+    tables:
+      - name: sample_table
+        description: 'Une liste des agents infiltres'
+        
