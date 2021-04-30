@@ -1,9 +1,9 @@
 version: 2
 
 sources:
-  - name: sample_db
-    description: 'Une BD exemple'
-    database: sample_db
+  - name: source_db
+    description: 'Une BD source'
+    database: source_db
     schema: PUBLIC
     tables:
       - name: sample_table
