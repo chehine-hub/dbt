@@ -21,7 +21,6 @@ sources:
 
           - name: working_area
             tests:
-                - unique
                 - not_null
 
           - name: commission
@@ -36,5 +35,4 @@ sources:
 
           - name: country
             tests:
-                - unique
                 - not_null
