@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: source_db
     description: 'Une BD source'
-    database: source_db
+    database: raw_db
     schema: RAW
     tables:
       - name: liste_agents
