@@ -6,5 +6,5 @@ FILE_FORMAT = "DB_DEMO_DBT"."RAW"."CSV";
 {% endset %}
 
 {% do run_query(sql) %}
-{% do log("Database cloned Successfully", info=True) %}
+{% do log("Data ingested successfully", info=True) %}
 {% endmacro %}
