@@ -1,4 +1,4 @@
-{% macro clone_db() %}
+{% macro clone() %}
 {% set sql %}
     CREATE OR REPLACE DATABASE CLONE_DB_DEMO_DBT clone DB_DEMO_DBT;
 {% endset %}

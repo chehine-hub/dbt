@@ -1,4 +1,4 @@
-{% macro drop_clone() %}
+{% macro drop() %}
 {% set sql %}
     DROP DATABASE CLONE_DB_DEMO_DBT;
 {% endset %}

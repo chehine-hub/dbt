@@ -1,4 +1,4 @@
-{% macro ingest_file() %}
+{% macro ingest() %}
 {% set sql %}
 COPY INTO "DB_DEMO_DBT"."RAW"."LISTE_AGENTS" 
 FROM @"DB_DEMO_DBT"."RAW"."STAGE_DEMO_DBT" 

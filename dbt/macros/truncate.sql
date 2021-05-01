@@ -1,4 +1,4 @@
-{% macro truncate_raw() %}
+{% macro truncate() %}
 {% set sql %}
     TRUNCATE TABLE "DB_DEMO_DBT"."RAW"."LISTE_AGENTS"; 
 {% endset %}
