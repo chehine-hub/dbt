@@ -1,4 +1,4 @@
-{% macro clone_db() %}
+{% macro truncate_raw() %}
 {% set sql %}
     TRUNCATE TABLE "CLONE_DB_DEMO_DBT"."RAW"."LISTE_AGENTS"; 
 {% endset %}
