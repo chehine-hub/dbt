@@ -1,6 +1,8 @@
 {% macro ingest_file() %}
 {% set sql %}
-COPY INTO "DB_DEMO_DBT"."RAW"."LISTE_AGENTS" FROM @STAGE_DEMO_DBT FILE_FORMAT = CSV;
+COPY INTO "DB_DEMO_DBT"."RAW"."LISTE_AGENTS" 
+FROM @"DB_DEMO_DBT"."RAW"."STAGE_DEMO_DBT" 
+FILE_FORMAT = CSV;
 {% endset %}
 
 {% do run_query(sql) %}
