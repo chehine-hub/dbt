@@ -1,4 +1,4 @@
-{% macro clone_db() %}
+{% macro ingest_file() %}
 {% set sql %}
 COPY INTO "DB_DEMO_DBT"."RAW"."LISTE_AGENTS" FROM @STAGE_DEMO_DBT FILE_FORMAT = CSV;
 {% endset %}
