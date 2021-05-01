@@ -1,6 +1,6 @@
 {% macro truncate_raw() %}
 {% set sql %}
-    TRUNCATE TABLE "CLONE_DB_DEMO_DBT"."RAW"."LISTE_AGENTS"; 
+    TRUNCATE TABLE "DB_DEMO_DBT"."RAW"."LISTE_AGENTS"; 
 {% endset %}
 
 {% do run_query(sql) %}
